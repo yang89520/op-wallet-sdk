@@ -1,0 +1,48 @@
+{
+  "name": "op-wallet-sdk",
+  "version": "1.0.0",
+  "description": "op 钱包作业",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the-web3/op-wallet-sdk.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/the-web3/op-wallet-sdk/issues"
+  },
+  "homepage": "https://github.com/the-web3/op-wallet-sdk#readme",
+  "dependencies": {
+    "bip32": "3.0.1",
+    "bip39": "^3.0.4",
+    "ethers": "^5.6.9"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.9",
+    "@babel/preset-env": "^7.22.9",
+    "@babel/preset-typescript": "^7.22.5",
+    "@midwayjs/cli": "1.0.0",
+    "@midwayjs/luckyeye": "1.0.0",
+    "@midwayjs/mock": "2.3.0",
+    "@types/bs58check": "^2.1.0",
+    "@types/jest": "26.0.10",
+    "@types/koa-bodyparser": "4.3.0",
+    "@types/node": "14",
+    "@typescript-eslint/eslint-plugin": "^5.13.0",
+    "@typescript-eslint/parser": "^5.13.0",
+    "babel-jest": "^29.6.2",
+    "cross-env": "6.0.0",
+    "eslint": "^8.4.1",
+    "eslint-config-semistandard": "^17.0.0",
+    "jest": "26.4.0",
+    "mwts": "^1.0.5",
+    "tronweb": "^2.10.1",
+    "ts-jest": "26.2.0",
+    "ts-node": "10.4.0",
+    "typescript": "5.0.2"
+  }
+}
